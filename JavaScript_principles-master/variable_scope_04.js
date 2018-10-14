@@ -24,3 +24,6 @@ function test(o) {
 
 o = {};
 test(o);
+/* aqui tenemos varios console log dentro de diferentes partes del codigo, el primero por ejemplo ira devolviendo
+todos los numeros del 0 al 9, pero al llegar este el valor de k es 10 y sale del bucle, al salir del bucle hacemos otro console de k
+que como hemos dicho era 10 y para finalizar hacemon un console de j que no a sido modificada y por tanto es 0. */

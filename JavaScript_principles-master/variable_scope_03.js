@@ -21,3 +21,6 @@ function checkscope() {
 
 console.log(checkscope());              // => "nested scope"
 console.log(scope);                     // => "global scope"
+/* cuando llama a la funcion esta haciendo que esta devueva lo que tiene su funcion y por tanto
+se muestra el return de la funcion nested. El segundo console.log no llama a ninguna funcion y por tanto no entra dentro de ninguna
+lo que hace que devuelva directamente el valor global */
