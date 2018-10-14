@@ -32,7 +32,7 @@ function letTest() {
     
     console.log(x);             // 31
 }
-
+/*El valor let solo es efectivo dentro del mismo bloque y una ves que sale fuera de dicho bloque el valor de la variable vuelve a ser 31. */
 
 function hoistingTest() {
 
